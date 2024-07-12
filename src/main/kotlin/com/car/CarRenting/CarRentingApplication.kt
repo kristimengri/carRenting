@@ -13,10 +13,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc
 @EnableWebMvc
 class CarRentingApplication {
 
-    @GetMapping("/testMessage")
-    fun testMessage(): String{
-        return "Testing Deploy"
-    }
+
 
 
     fun main(args: Array<String>) {
